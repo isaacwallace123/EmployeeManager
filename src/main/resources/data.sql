@@ -1,0 +1,10 @@
+insert into employees (id, employeeid, first_name, last_name) values (1, '987604d8-f387-465f-83c7-ba281147c718', 'Oralle', 'Woodrup');
+insert into employees (id, employeeid, first_name, last_name) values (2, 'a62455ac-5180-45b3-b6c8-dd383bf6c5e2', 'Constancy', 'Ternouth');
+insert into employees (id, employeeid, first_name, last_name) values (3, '93aea5b2-6f3c-4c4a-8fd4-f3242c7ad422', 'Pasquale', 'Kendred');
+insert into employees (id, employeeid, first_name, last_name) values (4, 'b6cc35e2-1825-4a2c-8377-6372a54926c9', 'Janos', 'Ewing');
+insert into employees (id, employeeid, first_name, last_name) values (5, '65bec8d2-4021-4fb1-bd71-8fab75d0993a', 'Harri', 'Bortol');
+insert into employees (id, employeeid, first_name, last_name) values (6, 'a6e7ff7b-50ac-421a-a80f-e5a3fdf2f6b7', 'Riordan', 'Pabel');
+insert into employees (id, employeeid, first_name, last_name) values (7, '218ee82e-b5e1-40fd-b924-7e9d662c3bef', 'Pauletta', 'Rushton');
+insert into employees (id, employeeid, first_name, last_name) values (8, '30b9a7b4-a66f-4116-9825-10df1732bec3', 'Neddy', 'Sancias');
+insert into employees (id, employeeid, first_name, last_name) values (9, '3fb85134-bb46-40bb-b24e-eebfb1bb147f', 'Esta', 'Fairtlough');
+insert into employees (id, employeeid, first_name, last_name) values (10, '0087b648-047f-41c4-9c0e-552c4b5ab86f', 'Sidney', 'Noice');
