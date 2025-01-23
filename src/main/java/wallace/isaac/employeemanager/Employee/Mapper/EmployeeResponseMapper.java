@@ -9,10 +9,10 @@ import wallace.isaac.employeemanager.Employee.DataAccess.Employee;
 import wallace.isaac.employeemanager.Employee.Presentation.EmployeeController;
 import wallace.isaac.employeemanager.Employee.Presentation.Models.EmployeeResponseModel;
 
-import java.util.List;
-
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+
+import java.util.List;
 
 @Mapper(componentModel = "spring")
 public interface EmployeeResponseMapper {
