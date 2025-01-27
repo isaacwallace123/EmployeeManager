@@ -9,4 +9,10 @@ public class EmployeeResponseModel extends RepresentationModel<EmployeeResponseM
 
     private String first_name;
     private String last_name;
+
+    private String dob;
+    private int age;
+
+    private String email;
+    private String title;
 }

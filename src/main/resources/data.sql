@@ -1,10 +1,10 @@
-insert into employees (id, employeeid, first_name, last_name) values (1, '987604d8-f387-465f-83c7-ba281147c718', 'Oralle', 'Woodrup');
-insert into employees (id, employeeid, first_name, last_name) values (2, 'a62455ac-5180-45b3-b6c8-dd383bf6c5e2', 'Constancy', 'Ternouth');
-insert into employees (id, employeeid, first_name, last_name) values (3, '93aea5b2-6f3c-4c4a-8fd4-f3242c7ad422', 'Pasquale', 'Kendred');
-insert into employees (id, employeeid, first_name, last_name) values (4, 'b6cc35e2-1825-4a2c-8377-6372a54926c9', 'Janos', 'Ewing');
-insert into employees (id, employeeid, first_name, last_name) values (5, '65bec8d2-4021-4fb1-bd71-8fab75d0993a', 'Harri', 'Bortol');
-insert into employees (id, employeeid, first_name, last_name) values (6, 'a6e7ff7b-50ac-421a-a80f-e5a3fdf2f6b7', 'Riordan', 'Pabel');
-insert into employees (id, employeeid, first_name, last_name) values (7, '218ee82e-b5e1-40fd-b924-7e9d662c3bef', 'Pauletta', 'Rushton');
-insert into employees (id, employeeid, first_name, last_name) values (8, '30b9a7b4-a66f-4116-9825-10df1732bec3', 'Neddy', 'Sancias');
-insert into employees (id, employeeid, first_name, last_name) values (9, '3fb85134-bb46-40bb-b24e-eebfb1bb147f', 'Esta', 'Fairtlough');
-insert into employees (id, employeeid, first_name, last_name) values (10, '0087b648-047f-41c4-9c0e-552c4b5ab86f', 'Sidney', 'Noice');
+insert into employees (id, employeeid, first_name, last_name, dob, email, title, salary)
+values (1, '6a8aeaec-cff9-4ace-a8f0-146f8ed180e5', 'Marco', 'Yateman', '2024-05-26 00:00:00', 'myateman0@mysql.com', 'supervisor', 868.59);
+insert into employees (id, employeeid, first_name, last_name, dob, email, title, salary)
+values (2, '2980698b-82b5-42fd-8dbb-33255eb637ed', 'Lilith', 'Langforth', '2024-11-17 00:00:00', 'llangforth1@apple.com', 'salesman', 39.46);
+insert into employees (id, employeeid, first_name, last_name, dob, email, title, salary)
+values (3, '8da6cebf-5868-456f-959f-ff6725310d78', 'Di', 'Saket', '2024-07-01 00:00:00', 'dsaket2@myspace.com', 'supervisor', 16.89);
+insert into employees (id, employeeid, first_name, last_name, dob, email, title, salary)
+values (4, '710d4d5c-7243-47e7-bf10-9efb08740974', 'Emelia', 'Spinige', '2024-09-24 00:00:00', 'espinige3@ovh.net', 'salesman', 761.43);
+insert into employees (id, employeeid, first_name, last_name, dob, email, title, salary)
+values (5, '5aa1428a-a785-44f9-81cf-8545650251ed', 'Brenda', 'Thys', '2024-10-03 00:00:00', 'bthys4@ehow.com', 'manager', 3.77);
