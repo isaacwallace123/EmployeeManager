@@ -33,4 +33,16 @@ public class EmployeeController {
     public ResponseEntity<EmployeeResponseModel> AddUser(@RequestBody EmployeeRequestModel employeeRequestModel) {
         return ResponseEntity.status(HttpStatus.CREATED).body(this.employeeService.addEmployee(employeeRequestModel));
     }
+
+    @DeleteMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity DeleteEmployee(@RequestBody String employeeId) {
+        this.employeeService.deleteEmployee(employeeId);
+
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
+    }
+
+    @PutMapping(value = "{employeeid}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<EmployeeResponseModel> EditPost(@PathVariable String employeeid, @RequestBody EmployeeRequestModel employeeRequestModel) {
+        return ResponseEntity.status(HttpStatus.OK).body(this.employeeService.editEmployee(employeeid, employeeRequestModel));
+    }
 }
